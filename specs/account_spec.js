@@ -12,7 +12,11 @@ it("should have a balance", function(){
 
 it("should have a holder name", function(){
   assert.equal("Cyrus", account1.name)
-})
+}),
+
+it("should have an account type", function(){
+  assert.equal("Personal", account1.type)
+});
 
 
 
