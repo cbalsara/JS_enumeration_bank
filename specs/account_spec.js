@@ -8,7 +8,11 @@ describe("Account", function(){
 
 it("should have a balance", function(){
   assert.equal(1000, account1.balance)
-});
+}),
+
+it("should have a holder name", function(){
+  assert.equal("Cyrus", account1.name)
+})
 
 
 
